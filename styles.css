@@ -1,0 +1,23 @@
+body {
+    background-color: yellow;
+}
+textarea{
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+.hr-simple{
+    border-style: double;
+    border-color: #CFB784;
+}
+
+#output{
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
