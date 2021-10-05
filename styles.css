@@ -1,23 +1,54 @@
 body {
-    background-color: yellow;
+    background-color: #FFFDD0
+    ;
 }
-textarea{
+
+textarea {
     width: 80%;
     height: 10vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
 }
-.hr-simple{
+
+.hr-simple {
     border-style: double;
     border-color: #CFB784;
 }
 
-#output{
+#output {
     border: 1px solid black;
     width: 80%;
     height: 10vh;
     display: block;
-    margin: 1rem;
+    margin: auto;
     padding: 1rem;
+
+}
+
+.minion1{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+}
+
+.div1{
+    text-align: center;
+    
+}
+#btn-translate{
+    ;
+}
+
+.minion2{
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+#txt-input{
+    margin: auto;
 }
