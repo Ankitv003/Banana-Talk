@@ -1,14 +1,15 @@
 body {
-    background-color: #FFFDD0
-    ;
+    background-color: #FFFDD0;
 }
 
 textarea {
-    width: 80%;
+    width: 40%;
     height: 10vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
+    margin: auto;
+
 }
 
 .hr-simple {
@@ -18,7 +19,7 @@ textarea {
 
 #output {
     border: 1px solid black;
-    width: 80%;
+    width: 40%;
     height: 10vh;
     display: block;
     margin: auto;
@@ -26,29 +27,83 @@ textarea {
 
 }
 
-.minion1{
+.minion1 {
     max-width: 500px;
     display: block;
     margin: auto;
 }
 
-.title{
+.title {
+    text-align: center;
+    color: #FFD55E;
+    background-color: #66263f;
+    width: 300px;
+    margin: auto;
+    font-weight: 900;
+    border-radius: 1rem;
+    font-size: xx-large;
+
+
+}
+
+.div1 {
+    text-align: center;
+
+}
+
+#btn-translate {
+    background-color: #66263f;
+    color: #FFD55E;
+    font-size: larger;
+    font-weight: 900;
+
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+    width: auto;
+}
+
+.div-btn {
     text-align: center;
 }
 
-.div1{
-    text-align: center;
-    
-}
-#btn-translate{
-    ;
-}
-
-.minion2{
+.minion2 {
     max-width: 600px;
     display: block;
     margin: auto;
 }
-#txt-input{
-    margin: auto;
+
+.footer {
+    background-color: #66263f;
+    padding: 1rem 1rem;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: #FFD55E;
+    font-weight: bolder;
+}
+
+
+
+.list-item-inline {
+    text-decoration: none;
+    display: inline;
+    padding: 1rem;
+
+
+}
+
+.footer-link {
+    text-decoration: none;
+
+}
+
+.copyright {
+    color: #FFD55E;
+    font-size: 1rem;
+    padding-top: 20px;
+}
+
+.image {
+    background-color: #FFD55E;
 }
